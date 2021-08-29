@@ -1,0 +1,66 @@
+<!--Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Love Calculator</title>
+<!-- Custom Theme files -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+<!-- Custom Theme files -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<meta name="keywords" content="Flat Search Box Responsive, Login form web template, Sign up Web Templates, Flat Web Templates, Login signup Responsive web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<!--Google Fonts-->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+<!--Google Fonts-->
+</head>
+<body>
+<!--search start here-->
+<div class="search" style="position: relative;
+top: -180px;">
+	
+	<div class="s-bar">
+		<h1 style="color: white;font-family: cursive;font-size: 30px;position: relative;
+		top:-60px;">{{header}}</h1>
+		<p style="color: chartreuse;position:relative;top:-40px;font-size: 20px;">Find out by typing the name of your spouse here</p>
+	   <form  name="form1" method="POST" onsubmit="required()"><div>
+		<input type="text" style="border-radius: 15px;"   name="fname" placeholder="please enter firstname">
+		</div>
+	<div style="position: relative;top: 20px;">	<input type="text" placeholder="enter lastname" style="border-radius: 15px;"  name="lname">
+	</div>
+		<input type="submit" style="position: relative;
+		top: 30px;
+		border-radius: 10px;
+		width: 100px;"  name="submit" value="Submit" />
+	  </form>
+	</div>
+	<p style="margin: 40px;">{{footer}}</p>
+</div>
+<!--search end here-->	
+<div class="copyright">
+	 <p></p>
+</div>
+<script>
+	function required()
+{
+var empt = document.forms["form1"]["fname"].value;
+var empt1 = document.forms["form1"]["lname"].value;
+if (empt == "")
+{
+alert("Please input first name");
+return false;
+}
+ if(empt1 == ""){
+	alert("Please input last name");
+return false;
+}
+
+}
+
+</script>	
+</body>
+</html>
